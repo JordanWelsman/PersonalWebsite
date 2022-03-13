@@ -14,4 +14,5 @@ session_start();
 ?>
 
 <body>
-    <p>Header</p>
+    <h1>Jordan Welsman</h1>
+    <hr>

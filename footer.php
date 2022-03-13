@@ -1,3 +1,5 @@
+<hr>
+
 <p>Footer</p>
 
 </body>

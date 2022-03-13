@@ -1,13 +1,14 @@
 <?php
 include_once "header.php";
+$sitepwd = "jordan";
 ?>
 
-<h1>Website Title</h1>
+<h1>Jordan Welsman</h1>
 <p>Website Content</p>
 
 <?php
-if (isset($_POST["password"])) { // check if password was submitted
-    if ($_POST["password"] == "jordan") { // check if password was correct
+if (!empty($_POST["password"])) { // check if password was submitted
+    if ($_POST["password"] == $sitepwd) { // check if password was correct
         // $_SESSION["user"] = true; // set session variable
         echo "Logged in!";
     } else {
